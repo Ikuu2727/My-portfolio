@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Contact Me</title>
+</head>
+<body>
+
+    <!-- Contact Form Section -->
+    <h1 style="background-color: tomato">Contact Me</h1>
+
+    <!-- The form collects user feedback -->
+    <form
+        action="mail to: ikramabduljelil585@gmail.com"
+        method="post=" enctype="text/plain">
+        
+        <!-- Name input -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <!-- Number input -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+        <!-- Range input -->
+        <label for="satisfaction">Satisfaction Level:</label><br>
+        <input type="range" id="satisfaction" name="satisfaction" min="0" max="10"><br><br>
+
+        <!-- Message -->
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Send Message">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
